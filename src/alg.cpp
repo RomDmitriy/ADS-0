@@ -5,12 +5,10 @@ while (true) {
 if (a != b) {
 if (a > b) {
 a = a - b;
-}
-else {
+} else {
 b = b - a;
 }
-}
-else {
+} else {
 return a;
 }
 }
